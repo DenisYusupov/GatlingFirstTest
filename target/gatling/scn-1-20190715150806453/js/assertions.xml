@@ -1,0 +1,11 @@
+<testsuite name="Scn_1" tests="3" errors="0" failures="1" time="0">
+<testcase name="Global: 95th percentile of response time is less than or equal to 550.0" status="true" time="0">
+  <system-out>Global: 95th percentile of response time is less than or equal to 550.0</system-out>
+</testcase>
+<testcase name="Global: percentage of failed events is less than or equal to 5.0" status="true" time="0">
+  <system-out>Global: percentage of failed events is less than or equal to 5.0</system-out>
+</testcase>
+<testcase name=">>_computers: 95th percentile of response time is less than or equal to 5.0" status="false" time="0">
+  <failure type=">>_computers">Actual value: 119.0</failure>
+</testcase>
+</testsuite>

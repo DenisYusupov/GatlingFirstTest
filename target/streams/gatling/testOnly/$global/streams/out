@@ -1,0 +1,11 @@
+[debug] javaOptions: Vector(-Djna.loaded=true, -Djna.nosys=true, -Didea.managed=true, -Dsbt.log.noformat=true, -Djnidispatch.path=C:\Users\User\AppData\Local\Temp\jna-2645995\jna4383599209261321597.dll, -server, -Xmx1G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=30, -XX:G1HeapRegionSize=16m, -XX:InitiatingHeapOccupancyPercent=75, -XX:+ParallelRefProcEnabled, -XX:+PerfDisableSharedMem, -XX:+AggressiveOpts, -XX:+OptimizeStringConcat, -XX:+HeapDumpOnOutOfMemoryError, -Djava.net.preferIPv4Stack=true, -Djava.net.preferIPv6Addresses=false)
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(Scn_1, sbt.ForkMain$SubclassFingerscan@4e22be18, false, [SuiteSelector])
+[error] Simulation Scn_1 failed.
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Simulation(s) execution ended.
+[error] Failed tests:
+[error] 	Scn_1
+[error] (Gatling / testOnly) sbt.TestsFailedException: Tests unsuccessful

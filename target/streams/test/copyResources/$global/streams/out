@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\YDA\GatlingTest\test\test\src\test\resources\logback.xml,C:\YDA\GatlingTest\test\test\target\scala-2.12\test-classes\logback.xml)
+[debug] 	(C:\YDA\GatlingTest\test\test\src\test\resources\searchData.csv,C:\YDA\GatlingTest\test\test\target\scala-2.12\test-classes\searchData.csv)

@@ -1,0 +1,36 @@
+{
+  "simulation": "Scn_1",
+  "simulationId": "scn-1",
+  "start": 1563202641009,
+  "description": "",
+  "scenarios": ["search", "edit", "delete", "browse"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "95th percentile of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [550.0],
+  "result": true,
+  "message": "Global: 95th percentile of response time is less than or equal to 550.0",
+  "actualValue": [234.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of failed events",
+  "condition": "is less than or equal to",
+  "expectedValues": [5.0],
+  "result": true,
+  "message": "Global: percentage of failed events is less than or equal to 5.0",
+  "actualValue": [0.3912587078919744]
+},
+{
+  "path": ">>_computers",
+  "target": "95th percentile of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [5.0],
+  "result": false,
+  "message": ">>_computers: 95th percentile of response time is less than or equal to 5.0",
+  "actualValue": [85.0]
+}
+  ]
+}
